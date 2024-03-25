@@ -1,0 +1,3 @@
+quote:
+"Although GPIOs are fundamentally digital in nature, they are often used to control linear processes. For example, a GPIO may be used to control motor speed, light intensity, or temperature. Usually, this is done via PWM, in which the duty cycle of the GPIO output signal determines the effective magnitude of the process control signal. For example, when controlling light intensity, the light may be dimmed by reducing the GPIO duty cycle. Some linear processes require a linear control voltage. In such cases, it may be feasible to connect a GPIO, which is operated as a PWM output, to an RC filter to create a simple, low cost digital-to-analog converter."
+- https://en.wikipedia.org/wiki/General-purpose_input/output
